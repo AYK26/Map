@@ -1,0 +1,11 @@
+.feature-info-popup {
+  position: absolute;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.18);
+  padding: 16px 20px;
+  z-index: 3000;
+  min-width: 220px;
+  max-width: 320px;
+  color: #222;
+}

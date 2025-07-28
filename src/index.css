@@ -1,0 +1,89 @@
+/* index.css */
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', 'Arial', sans-serif;
+  background: #f5f5f7;
+  overflow: hidden;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+body {
+  overflow: hidden;
+}
+
+#root {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Harita container */
+.map-container {
+  flex-grow: 1;
+  width: 100%;
+  height: 500px; /* Haritanın yükseklik değeri, istersen değiştirebilirsin */
+}
+
+/* Popup ve sidebar stilleri */
+.feature-popup {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: white;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+  z-index: 1000;
+  width: 320px;
+}
+
+.sidebar {
+  width: 280px;
+  background-color: #fafafa;
+  padding: 1rem;
+  border-right: 1px solid #ddd;
+  overflow-y: auto;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  background-color: #3b82f6;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #2563eb;
+}
+
+input, select {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+h2, h3 {
+  margin-top: 0;
+}
+

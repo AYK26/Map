@@ -1,0 +1,16 @@
+.expended-sidebar {
+  width: 320px;
+  height: 100vh;
+  background: #fafafa;
+  box-shadow: -2px 0 8px rgba(0,0,0,0.08);
+  z-index: 2000;
+  padding: 20px 16px 16px 16px;
+  border-radius: 0 0 0 0;
+  overflow-y: auto;
+}
+
+
+
+.sidebar h4 {
+  margin-top: 0;
+}

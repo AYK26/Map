@@ -1,0 +1,71 @@
+.feature-popup {
+  position: absolute;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.18);
+  padding: 20px 24px;
+  z-index: 3000;
+  min-width: 220px;
+  max-width: 320px;
+  color: #222;
+}
+
+.feature-popup__title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  text-align: center;
+  color: #222;
+}
+
+.feature-popup__input,
+.feature-popup__select {
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  outline-offset: 2px;
+  transition: border-color 0.2s ease-in-out;
+}
+
+.feature-popup__input:focus,
+.feature-popup__select:focus {
+  border-color: #4caf50;
+}
+
+.feature-popup__buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.75rem;
+}
+
+.feature-popup__button {
+  cursor: pointer;
+  border: none;
+  font-size: 1.25rem;
+  padding: 0.25rem 0.75rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.feature-popup__button.cancel {
+  background-color: transparent;
+  color: #e53935;
+  font-weight: 700;
+}
+
+.feature-popup__button.cancel:hover {
+  background-color: #fce4ec;
+}
+
+.feature-popup__button.save {
+  background-color: #4caf50;
+  color: white;
+  font-weight: 700;
+}
+
+.feature-popup__button.save:hover {
+  background-color: #388e3c;
+}

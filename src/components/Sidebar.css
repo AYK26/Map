@@ -1,0 +1,67 @@
+/* Slim sidebar for right edge */
+.sidebar-slim {
+  position: relative;
+  width: 48px;
+  min-width: 48px;
+  max-width: 48px;
+  height: 100vh;
+  background: #eee;
+  z-index: 1001;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: -2px 0 6px rgba(0,0,0,0.04);
+  margin-left: auto;
+}
+
+.sidebar-hamburger {
+  background: none;
+  border: none;
+  padding: 12px 0 8px 0;
+  cursor: pointer;
+  outline: none;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 8px;
+}
+
+.bar {
+  width: 24px;
+  height: 3px;
+  background: #646cff;
+  margin: 3px 0;
+  border-radius: 2px;
+}
+
+.sidebar-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 24px;
+  gap: 12px;
+  width: 100%;
+}
+
+.sidebar-action-btn {
+  width: 32px;
+  height: 32px;
+  background: #fff;
+  border: 2px solid #646cff;
+  color: #646cff;
+  border-radius: 50%;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-bottom: 8px;
+  transition: background 0.2s, color 0.2s;
+}
+
+.sidebar-action-btn:hover {
+  background: #646cff;
+  color: #fff;
+}

@@ -1,0 +1,17 @@
+#root {
+  max-width: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
